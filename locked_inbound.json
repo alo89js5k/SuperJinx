@@ -1,0 +1,10 @@
+{ "tag": "جینکس | 𝙎𝙪𝙥𝙚𝙧 𝗝𝗶𝗻𝗫", "listen": "127.0.0.1", "port": 2004, "protocol": "vless",
+  "settings": { "clients": [], "decryption": "none" },
+  "streamSettings": {
+    "network": "httpupgrade",
+    "httpupgradeSettings": { "path": "/panel-ws" },
+    "security": "none",
+    "sockopt": { "tcpFastOpen": true, "tcpNoDelay": true }
+  },
+  "sniffing": { "enabled": true, "destOverride": ["http", "tls", "quic"], "routeOnly": true }
+}
